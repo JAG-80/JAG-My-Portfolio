@@ -1,0 +1,21 @@
+# Operating system files
+.DS_Store          # macOS hidden file (not needed on Windows)
+Thumbs.db          # Windows thumbnail cache
+desktop.ini        # Windows folder customization
+
+# Editor/IDE files
+.vscode/           # VS Code settings
+.idea/             # JetBrains IDE (WebStorm, IntelliJ)
+*.sublime-workspace # Sublime Text
+
+# Node.js (if you use npm, but not required for static sites)
+node_modules/
+package-lock.json
+
+# Local development files
+.env               # Environment variables (sensitive data!)
+*.local            # Local config overrides
+
+# Additional Windows-specific files (if applicable)
+*.log              # Log files
+*.tmp              # Temporary files
